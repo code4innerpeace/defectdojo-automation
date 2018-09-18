@@ -50,4 +50,4 @@
 
 ### Limitations ###
 * This cloudformation had been tested on 'Ubuntu 16.04'(AMI ID :- ami-068ab34816099a0a9)
-*
+* This setup is depended on my 'batch_mode' automation PR request, which is currently submitted to 'dev' branch 'https://github.com/DefectDojo/django-DefectDojo/tree/dev'. So currently 'DefectDojoRepoBranch' variable value is set to 'dev'.
