@@ -32,7 +32,7 @@
   { "ParameterKey": "ALBHTTPSListenerPort",        "ParameterValue": "443" },
   { "ParameterKey": "AMIID",        "ParameterValue": "ami-068ab34816099a0a9" },
   { "ParameterKey": "InstanceType",        "ParameterValue": "t2.medium" },
-  { "ParameterKey": "KeyName",        "ParameterValue": "<SSH_KEY_NAME>(Example :- VASVijayTest)" },
+  { "ParameterKey": "KeyName",        "ParameterValue": "<SSH_KEY_NAME>(Example :- TestSSH)" },
   { "ParameterKey": "AccessAllowedHost1",        "ParameterValue": "<HOST_ALLOWED_TO_ALB_BASTION>(Example :- 01.02.03.04/32)" },
   { "ParameterKey": "AppEBSVolumeSize",        "ParameterValue": "30" },
   { "ParameterKey": "AppEBSVolumeType",        "ParameterValue": "gp2" },
