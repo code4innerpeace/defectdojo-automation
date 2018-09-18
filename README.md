@@ -9,6 +9,9 @@
  * DefectDojo App Instance
  * DefectDojo EBS Volume
 
+### Prerequisites :-
+* Ubuntu AMI ID 'ami-068ab34816099a0a9' needs to be subscribed. Please subscribe to this AMI. Any other Ubuntu 16.04 can also be used.
+
 ### Steps
 
 1) Create S3 Bucket.
@@ -44,3 +47,7 @@
 7) Track the status of stack creation from AWS Console. Takes appx 7-10 minutes.
 8) Once stack status is 'CREATE_COMPLETE', access DefectDojo app by fetching DefectDojo url from 'DefectDojoAppURL' from stack outputs tab.
 9) Login into the DefectDojo app with credentials(DefectDojoBatchModeAdminUser,DefectDojoBatchModeAdminPassword) defined in 'dev.json'
+
+### Limitations ###
+* This cloudformation had been tested on 'Ubuntu 16.04'(AMI ID :- ami-068ab34816099a0a9)
+*
