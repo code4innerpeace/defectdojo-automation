@@ -12,6 +12,10 @@
 ### Prerequisites :-
 * Ubuntu AMI ID 'ami-068ab34816099a0a9' needs to be subscribed. Please subscribe to this AMI. Any other Ubuntu 16.04 can also be used.
 
+### Architecture, Flow diagrams
+![alt text](diagrams/DefectDojoCFArch.png "Architecture")
+![alt text](diagrams/DefectDojoCFFlow.png "Flow")
+
 ### Steps
 
 1) Create S3 Bucket.
